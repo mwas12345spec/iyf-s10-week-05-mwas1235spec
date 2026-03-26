@@ -4,7 +4,50 @@
     <meta charset="UTF-8">
     <title>To-Do List</title>
     <style>
-        
+        able {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #f9f9f9; /* Light background color for the table */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background: #4CAF50; /* Green background for the header */
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light gray color for even rows */
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff; /* White color for odd rows */
+}
+
+tr.completed td {
+    text-decoration: line-through;
+    color: gray;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 2px;
+    background-color: #007BFF; /* Blue background for buttons */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue when hovered */
+}
     </style>
 </head>
 <body>
