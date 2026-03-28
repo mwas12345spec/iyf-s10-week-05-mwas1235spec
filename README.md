@@ -1,4 +1,5 @@
-# Week  05: {Project Title}
+# Week  05: DOM manipulation
+
 
 ## Author
 - **Name:** Mark mwangi
